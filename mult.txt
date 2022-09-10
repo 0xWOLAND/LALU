@@ -1,0 +1,17 @@
+ldi R1, 1
+ldi R2, 1
+nop
+L0:ldi R3, 1
+mult R3, R1
+mult R3, R1
+add R1, R2
+mov R0, R3
+ldi R3, 1
+sub R2, R3
+sub R2, R3
+mult R2, R1
+mult R2, R1
+mov R0, R2
+ldi R2, 1
+jmp L0
+nop
