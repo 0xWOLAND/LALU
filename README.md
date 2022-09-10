@@ -25,6 +25,8 @@ Arithmetic Logic Unit in Logism. LALU is a 16-bit arithmetic logic unit with har
 |--------------|-----------|-------|-----------|------------------------|
 | jump  jmp    | target PC |   00  | jmp targ  | PC = targ PC           |
 | jumpn jmpn   | target PC |   01  | jmpn targ | PC = targ PC if Rd < 0 |
+
+
 **Clarification for jmpn: If the previously used register has a value < 0, then jmpn actls like jmp (it is a 'if not' statement)
 ### Assembler
 - Mult.py converts the instruction program to hex, which is put into the RAM on the left side of the LALU file. 
