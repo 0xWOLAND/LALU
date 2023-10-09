@@ -1,5 +1,5 @@
 ![LALU-of-FullAdderWithStaticCarry](https://user-images.githubusercontent.com/41707552/189496216-2e7a850e-0524-4512-8d1f-3782aec70535.gif)
-<figcaption align = "center"><b>Square Number Series Alernating Between Negative and Positive</b></figcaption>
+<figcaption align = "center"><b>Square Number Series Alternating Between Negative and Positive</b></figcaption>
 
 # LALU
 Arithmetic Logic Unit in Logism. LALU is a 16-bit arithmetic logic unit with hardware multiplication. Addition, Subtraction, and Multiplication handle negative numbers. LALU also saves register contents to RAM and has 'if' and '!if' conditionals. Loops are available using jmp and jmpn. The mult.txt file will produce a series of square numbers flipping between the negative and positive values for each value in the sequence.  ***Note the LALU is in the FullAdderWithStaticCarry.circ file. and the 7-Segment Output is in Hex not Decimal
